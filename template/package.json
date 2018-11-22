@@ -1,0 +1,11 @@
+{
+  "name": "create-sync-app",
+  "version": "1.0.0",
+  "description": "A helper tool for sync-file-cli",
+  "scripts": {
+    "start": "sync file"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "license": "MIT"
+}

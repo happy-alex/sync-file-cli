@@ -1,0 +1,40 @@
+{
+  "name": "sync-file-cli",
+  "version": "0.0.1",
+  "description": "A simple tool for sync file",
+  "keywords": [
+    "sync",
+    "replace",
+    "file",
+    "auto"
+  ],
+  "bin": {
+    "sync": "bin/sync.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "minimist": "^1.2.0",
+    "mz": "^2.7.0",
+    "request-promise": "^4.2.2"
+  },
+  "homepage": "https://github.com/happy-alex/sync-file-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happy-alex/sync-file-cli.git"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}
