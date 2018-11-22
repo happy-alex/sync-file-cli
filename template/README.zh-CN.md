@@ -1,21 +1,25 @@
 sync-file-cli 具体执行工具，所有同步文件相关任务都必须在本项目下进行。
 
-## 安装
+## 用法
+
+项目下的 config.js 用来指定同步文件操作的相关配置项。
+npm start 之前必须先配置 config.js
 
 ```bash
 $ cd create-sync-app
-$ sync file
+$ npm run start
 ```
 
 ## 配置说明
 
 ```javascript
+// config.js
 module.exports = {
 
-    // 源文件地址，必填
+    // 源文件地址，可以是本地路径或http网址，必填
     source: '',
 
-    // 目标替换文件地址，必填
+    // 目标替换文件地址，本地路径，必填
     target: '',
 
     // 替换完成后，指定要执行的命令，可选

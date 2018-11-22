@@ -1,6 +1,6 @@
 {
   "name": "sync-file-cli",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A simple tool for sync file",
   "keywords": [
     "sync",
@@ -28,6 +28,7 @@
     "chalk": "^2.4.1",
     "minimist": "^1.2.0",
     "mz": "^2.7.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
   "homepage": "https://github.com/happy-alex/sync-file-cli",
@@ -36,8 +37,8 @@
     "url": "https://github.com/happy-alex/sync-file-cli.git"
   },
   "bugs": {
-    "url" : "https://github.com/happy-alex/sync-file-cli/issues",
-    "email" : "1335536581@qq.com"
+    "url": "https://github.com/happy-alex/sync-file-cli/issues",
+    "email": "1335536581@qq.com"
   },
   "author": {
     "name": "pengbo.guo",

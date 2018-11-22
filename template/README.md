@@ -1,21 +1,28 @@
 init sync-file-cli app helper tools.
 
-## Install
+## Usage
+
+The file of config.js is very important!
+
+It is used to specify configuration items.
+
+You should set options in config.js before starting;
 
 ```bash
 $ cd create-sync-app
-$ sync file
+$ npm run start
 ```
 
 ## Config Description
 
 ```javascript
+// config.js
 module.exports = {
 
-    // source file, required
+    // source file: local directory or url, required
     source: '',
 
-    // target file, required
+    // target file: local directory, required
     target: '',
 
     // exec command after replace file
