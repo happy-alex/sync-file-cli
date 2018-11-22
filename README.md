@@ -9,7 +9,7 @@ Node.js >= 8.0.0 required.
 ## Quick Start
 
 ```bash
-$ npm install sync-flie-cli -g
+$ npm install sync-file-cli -g
 $ sync init my-sync-app
 $ cd my-sync-app
 $ npm run start

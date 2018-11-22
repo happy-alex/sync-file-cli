@@ -9,7 +9,7 @@
 ## 快速开始
 
 ```bash
-$ npm install sync-flie-cli -g
+$ npm install sync-file-cli -g
 $ sync init my-sync-app
 $ cd my-sync-app
 $ npm run start
