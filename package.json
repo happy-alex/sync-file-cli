@@ -1,6 +1,6 @@
 {
   "name": "sync-file-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple tool for sync file",
   "keywords": [
     "sync",
@@ -13,7 +13,9 @@
   },
   "files": [
     "bin",
-    "lib"
+    "lib",
+    "template",
+    "config.js"
   ],
   "scripts": {
     "lint": "eslint lib",
@@ -32,6 +34,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/happy-alex/sync-file-cli.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/happy-alex/sync-file-cli/issues",
+    "email" : "1335536581@qq.com"
+  },
+  "author": {
+    "name": "pengbo.guo",
+    "email": "1335536581@qq.com",
+    "url": "https://github.com/happy-alex"
   },
   "engines": {
     "node": ">= 8.0.0"
