@@ -15,6 +15,15 @@ $ cd my-sync-app
 $ npm run start
 ```
 
+## Commands
+
+```bash
+sync init <project-name>          # init sync-file-cli app
+sync file                         # fetch remote file and replace locally
+sync help, -h, --help             # display all available commands
+sync version, -v                  # version of sync-file-cli
+```
+
 ## LICENSE
 
 [MIT](LICENSE)

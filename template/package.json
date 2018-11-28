@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A helper tool for sync-file-cli",
   "scripts": {
-    "start": "sync file"
+    "start": "sync file",
+    "start:local": "sync file --env local"
   },
   "devDependencies": {},
   "dependencies": {},
